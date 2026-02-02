@@ -1,31 +1,20 @@
-Absolutely! Here’s a **ready-to-copy-paste, professional README** for your URL shortener project, fully formatted for GitHub, including badges and clear instructions. You just need to replace `<your-repo-url>` with your actual repo URL.
-
 ---
 
 ````markdown
-# 🌐 URL Shortener (TinyURL Clone)
-
+# 🌐 URL Shortener
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-v22.16.0-green)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-v7.0.5-brightgreen)](https://www.mongodb.com/)
 [![Redis](https://img.shields.io/badge/Redis-v7.2.0-orange)](https://redis.io/)
 [![React](https://img.shields.io/badge/React-v18.2.0-blue)](https://reactjs.org/)
-
 ---
-
 ## 🔹 Project Overview
-
 A **full-stack URL shortener** (like TinyURL / Bit.ly) with:
-
 - Shortening of **any valid URL**  
 - **Fast redirects** using Redis caching  
 - Click **analytics dashboard**  
 - Scalable backend optimized for **read-heavy traffic**  
-
-This project demonstrates **SDE-2 level backend optimization, caching, and full-stack integration**.
-
 ---
-
 ## 🔹 Features
 
 - Generate unique short URLs for **any URL**  
@@ -174,15 +163,3 @@ db.urls.find({ shortCode: "<shortCode>" })
 MIT License © 2026
 
 ---
-
-💡 **Pro Tip for Interviews:**
-Highlight Redis caching, analytics, and architecture — this shows **SDE-2 level backend + full-stack understanding**.
-
-```
-
----
-
-If you want, I can also create a **version with live screenshots of your frontend + analytics dashboard** and **GitHub badges for running status**, so it looks like a **professional portfolio-ready project**.  
-
-Do you want me to do that next?
-```
