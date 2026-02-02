@@ -1,18 +1,24 @@
 ````markdown
 # 🌐 URL Shortener
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-v22.16.0-green)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-v7.0.5-brightgreen)](https://www.mongodb.com/)
 [![Redis](https://img.shields.io/badge/Redis-v7.2.0-orange)](https://redis.io/)
 [![React](https://img.shields.io/badge/React-v18.2.0-blue)](https://reactjs.org/)
+
 ---
+
 ## 🔹 Project Overview
 A **full-stack URL shortener** (like TinyURL / Bit.ly) with:
+
 - Shortening of **any valid URL**  
 - **Fast redirects** using Redis caching  
 - Click **analytics dashboard**  
 - Scalable backend optimized for **read-heavy traffic**  
+
 ---
+
 ## 🔹 Features
 
 - Generate unique short URLs for **any URL**  
@@ -26,13 +32,13 @@ A **full-stack URL shortener** (like TinyURL / Bit.ly) with:
 
 ## 🔹 Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| Backend | Node.js, Express.js |
-| Database | MongoDB |
-| Cache | Redis |
-| Frontend | React.js |
-| API Testing | Postman / Axios |
+| Layer       | Technology        |
+|------------|------------------|
+| Backend     | Node.js, Express.js |
+| Database    | MongoDB           |
+| Cache       | Redis             |
+| Frontend    | React.js          |
+| API Testing | Postman / Axios   |
 
 ---
 
@@ -160,4 +166,5 @@ db.urls.find({ shortCode: "<shortCode>" })
 
 MIT License © 2026
 
----
+```
+```
